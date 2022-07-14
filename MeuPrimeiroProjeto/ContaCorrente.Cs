@@ -23,4 +23,16 @@ int Numero, double Saldo){ //(construtor)
    }
       return false;
 }
+
+
+
+ public bool depositar (double valordeposito)
+{
+   if(this.Saldo > valordeposito)
+   {
+      this.Saldo = this.Saldo + valordeposito;
+      return true;
+   }
+      return false;
+}
 }

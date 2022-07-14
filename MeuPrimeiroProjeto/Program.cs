@@ -44,6 +44,24 @@ namespace meuPrimeiroProjeto
            ", a agência é " + conta_do_Bruno.Agencia + " e o Numero é "
            + conta_do_Bruno.Numero + " Saldo " + conta_do_Bruno.Saldo + ".");
 
+           bool depositar_conta = conta_do_Geraldao.depositar(50);
+           bool depositar_conta1 = conta_da_Barbara.depositar(50);
+           bool depositar_conta2 = conta_do_Bruno.depositar(50);
+
+            Console.WriteLine("A conta é do (a) " + conta_do_Geraldao.Titular +
+           ", a agência é " + conta_do_Geraldao.Agencia + " e o Numero é "
+           + conta_do_Geraldao.Numero + " Saldo " + conta_do_Geraldao.Saldo + ".");
+
+           // A conta é do Bruno, a Agência é 12345 e o Numero é 157
+
+           Console.WriteLine("A conta é do (a) " + conta_da_Barbara.Titular +
+           ", a agência é " + conta_da_Barbara.Agencia + " e o Numero é "
+           + conta_da_Barbara.Numero + " Saldo " + conta_da_Barbara.Saldo + ".");
+
+           Console.WriteLine("A conta é do (a) " + conta_do_Bruno.Titular +
+           ", a agência é " + conta_do_Bruno.Agencia + " e o Numero é "
+           + conta_do_Bruno.Numero + " Saldo " + conta_do_Bruno.Saldo + ".");
+
         }
     }
 }
